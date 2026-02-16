@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body style="background-color: antiquewhite;">
+
+    <center><h1 style="background-color: rgb(252, 219, 176);">Cadastro de Aluno</h1></center>
+
+    <form>
+
+        <fieldset>
+         <legend>Dados do usuário</legend>
+        Nome Completo: <input type="text" name="nome" size="30" placeholder="Digite seu nome">
+        <br><br>
+        Data de nacismento: <input type="date">
+        <br><br>
+        Sexo:
+        <br>
+        <input type="radio" name="sexo"> Feminino
+        <br>
+        <input type="radio" name="sexo"> Masculino
+        <br>
+        <input type="radio" name="sexo"> Outro
+        <br><br>
+        Email: <input type="email">
+        <br><br>
+        Senha: <input type="password">
+        </fieldset>
+        <br><br>
+
+
+        <fieldset>
+        <legend>Endereço</legend>
+        Rua: <input type="text">
+        <br><br>
+        N°: <input type="text">
+        <br><br>
+        Bairro: <input type="text">
+        <br><br>
+        Cidade 
+        <select>
+            <option>Acopiara</option>
+            <option>Iguatu</option>
+            <option>Fortaleza</option>
+            <option>Juazeiro</option>
+        </select>
+     </fieldset>
+     <br><br>
+
+
+     <fieldset>
+         <legend>Série e Curso</legend>
+        Série:
+        <br>
+        <input type="radio" name="idade"> 1° ano
+        <br>
+        <input type="radio" name="idade"> 2° ano
+        <br>
+        <input type="radio" name="idade"> 3° ano
+        <br><br>
+        Curso:
+        <br>
+        <input type="radio" name="curso"> Administração
+        <br>
+        <input type="radio" name="curso"> Desenvolvimento de Sistemas
+        <br>
+        <input type="radio" name="curso"> Enfermagem
+        <br>
+        <input type="radio" name="curso"> Informática
+        <br><br> 
+     </fieldset>
+     <br><br>
+
+
+      <fieldset>
+        <legend>Situação do Aluno</legend>
+        <select>
+            <option>Aprovado Direto</option>
+            <option>Aprovado com Recuperação</option>
+            <option>Reprovado</option>
+            <option>Recuperação</option>
+        </select>
+        <br><br>
+        Informações adicionais:<textarea rows="1"></textarea>
+     </fieldset>
+
+     </form>
+     <br>
+     <form action="cadastro2.html">
+     <button type="submit">Enviar</button>
+     </form>
+     <br>
+
+    <form>
+     <button type="reset">Limpar</button>
+    </form>
+    
+</body>
+</html>
